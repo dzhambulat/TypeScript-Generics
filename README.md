@@ -2,7 +2,11 @@
 Bunch of exercises for practicing TypeScript generics
 
 ## Function Generics
-🔷  **Create a generic factory function which has type parameter and returns an instance of this type.**
+🔷  **Factory function**
+
+***Task***
+
+Create a generic factory function which has type parameter and returns an instance of this type.
 <details>
 <summary>💡Hint</summary>
 </details>
@@ -16,7 +20,13 @@ Bunch of exercises for practicing TypeScript generics
 ```
 </details>
 
-🔷 **Create a generic functions with type parameter T which returns array of type T, but if no parameter passed return array of Number.**
+
+
+🔷 **Generic Defaults**
+
+***Task***
+
+Create a generic functions with type parameter T which returns array of type T, but if no parameter passed return array of Number.
 <details>
 <summary>💡Hint</summary>
 
