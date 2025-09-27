@@ -34,10 +34,22 @@ Create a generic functions with type parameter T which returns array of type T, 
 </details>
 <details>
 <summary>✅ Solution</summary>
+</details>
+
+## Conditional Generics
+
+***Task***
+
+Create a generic Type that takes a function type and returns its return type
+<details>
+<summary>💡Hint</summary>
+  Check the type to extend the function type and use infer keyword
+</details>
+<details>
+<summary>✅ Solution</summary>
   
-```typescript
-  function createArray<T = number>(amount: number): T[] {
-    return new Array<T>(amount);
-  }
+```ts
+type ReturnType1<T> = T extends (...args: any[])=> infer R ? R : never
 ```
 </details>
+
